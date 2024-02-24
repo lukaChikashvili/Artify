@@ -1,11 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.cdnfonts.com/css/lobster-two');
 :root {
-     --bg:  #333333;
+     --bg:  linear-gradient(to top, #434343 0%, black 80%)
 
 }
 body {
-  background-color: var(--bg);
+  background: var(--bg);
+  height: 100vh;
+  font-family: 'Lobster Two', sans-serif;
+                                                
 }
