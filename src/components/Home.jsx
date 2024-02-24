@@ -21,6 +21,7 @@ const Home = () => {
            </div>
 
            <h1 className='text-white text-4xl w-3/5 text-center leading-10'>Discover, Connect, Collect - <span className='text-[#C70039]'>ArtifyGallery,</span> Where Every Brushstroke Tells a Story.</h1>
+           <button className='text-white bg-[#C70039] py-2 px-12 text-2xl rounded-md shadow-lg border-2 border-transparent shadow-black mt-12 duration-500 ease-in hover:bg-transparent border-[#C70039]'>Discover Artists</button>
       </div>
     </div>
   )
