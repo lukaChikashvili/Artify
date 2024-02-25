@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='min-h-screen '>
 
-      <div className='flex items-center'>
+      <div >
           <h2 className='text-white text-5xl p-12 line'>About Us</h2>
       </div>
 
