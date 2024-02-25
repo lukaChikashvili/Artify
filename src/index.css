@@ -30,3 +30,23 @@ body {
   bottom: 15px;
   left: 10px;
 }
+
+nav a {
+  position: relative;
+  transition: transform 0.5s ease-in;
+}
+
+nav a:hover {
+  transform: translateY(-8px);
+  color:#C70039;
+}
+
+nav a span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: transparent;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: clip-path 0.5s ease;
+}
+
