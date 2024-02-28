@@ -5,6 +5,7 @@ import art3 from '../assets/art3.jpg';
 import art4 from '../assets/art4.jpg';
 import About from './About';
 import Artists from './Artists';
+import Footer from './Footer';
 
 
 
@@ -33,6 +34,7 @@ const Home = () => {
 
 <About />
 <Artists />
+<Footer />
 </>
   )
 }
