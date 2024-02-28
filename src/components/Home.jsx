@@ -6,6 +6,7 @@ import art4 from '../assets/art4.jpg';
 import About from './About';
 import Artists from './Artists';
 import Footer from './Footer';
+import Contact from './Contact';
 
 
 
@@ -34,6 +35,8 @@ const Home = () => {
 
 <About />
 <Artists />
+
+<Contact />
 <Footer />
 </>
   )
