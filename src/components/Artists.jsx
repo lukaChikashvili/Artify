@@ -3,9 +3,14 @@ import leo from '../assets/leo.jpg';
 import gogh from '../assets/gogh.jpg';
 import rembr from '../assets/rembrandt.jpg';
 import pablo from '../assets/pablo.jpg';
+import {useNavigate} from 'react-router-dom';
+
 
 
 const Artists = () => {
+
+  let navigate = useNavigate();
+  
   return (
     <div className='min-h-screen py-12'>
       <h2 className='text-white text-5xl p-12 line'>Trending Artists</h2>
@@ -37,7 +42,7 @@ const Artists = () => {
           
       </div>
 
-      <button className='bg-transparent text-white border-2 border-[#C70039] py-4 px-12 text-2xl ml-12 cursor-pointer rounded-md mt-8 duration-1000 ease hover:bg-[#C70039]'>Discover all artists</button>
+      <button className='bg-transparent text-white border-2 border-[#C70039] py-4 px-12 text-2xl ml-12 cursor-pointer rounded-md mt-8 duration-1000 ease hover:bg-[#C70039]' onClick={() => navigate('/artists')}>Discover all artists</button>
     </div>
   )
 }

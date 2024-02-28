@@ -11,7 +11,7 @@ const Header = () => {
 
    <nav className='hidden md:flex gap-8 '>
           <Link to = "/"  >Home</Link>
-          <Link to = "/">Artists</Link>
+          <Link to = "/artists">Artists</Link>
           <Link to = "/">ArtWork</Link>
           <Link to = "/">Blog</Link>
           <Link to = "/">Contact</Link>
