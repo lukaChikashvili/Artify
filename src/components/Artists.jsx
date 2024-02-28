@@ -7,10 +7,10 @@ import pablo from '../assets/pablo.jpg';
 
 const Artists = () => {
   return (
-    <div className='min-h-screen '>
+    <div className='min-h-screen py-12'>
       <h2 className='text-white text-5xl p-12 line'>Trending Artists</h2>
 
-      <div className='flex items-center justify-start gap-8 px-12 py-8'>
+      <div className='flex flex-col md:flex-row items-center justify-start gap-8 px-12 py-8'>
           <div className='flex flex-col gap-4'>
           <img src = {leo} className='w-72 h-72 object-cover shadow-lg shadow-black duration-500 ease-in hover:opacity-50' />
           <h2 className='text-white text-3xl text-center'>Leonardo da vinci</h2>
