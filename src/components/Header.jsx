@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HomeIcon, Palette} from 'lucide-react';
 
 
 const Header = () => {
@@ -10,11 +11,18 @@ const Header = () => {
       </div>
 
    <nav className='hidden md:flex gap-8 '>
+        <div className='flex items-center gap-4'>
+          <HomeIcon className='text-red-500' />
           <Link to = "/"  >Home</Link>
+          </div>
+
+          <div className='flex items-center gap-4'>
+          <Palette className='text-red-500' />
           <Link to = "/artists">Artists</Link>
-          <Link to = "/">ArtWork</Link>
-          <Link to = "/">Blog</Link>
-          <Link to = "/">Contact</Link>
+          </div>
+          
+         
+
           </nav>
     </div>
   )

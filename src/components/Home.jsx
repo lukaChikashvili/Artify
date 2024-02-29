@@ -28,7 +28,7 @@ const Home = () => {
            </div>
 
            <motion.h1 initial = {{opacity: 0}} animate = {{opacity: 1}} transition = {{duration: 1.5, delay: 1.5}}  className='text-white text-2xl w-full md:text-4xl md:w-3/5 text-center leading-10'>Discover, Connect, Collect - <span className='text-[#C70039]'>ArtifyGallery,</span> Where Every Brushstroke Tells a Story.</motion.h1>
-           <motion.button initial = {{opacity: 0}} animate = {{opacity: 1}} transition = {{duration: 1, delay: 2}} className='text-white bg-[#C70039] py-2 px-12 text-2xl rounded-md shadow-lg border-2 border-transparent shadow-black mt-12 duration-500 ease-in hover:bg-transparent border-[#C70039]'>Discover Artists</motion.button>
+           <motion.button initial = {{opacity: 0}} animate = {{opacity: 1}} transition = {{duration: 1, delay: 2}} className='text-white bg-[#C70039] py-2 px-12 text-2xl rounded-md shadow-lg border-2 border-transparent shadow-black mt-12 duration-500 ease-in hover:bg-transparent hover:border-[#C70039]'>Discover Artists</motion.button>
       </div>
 
  
