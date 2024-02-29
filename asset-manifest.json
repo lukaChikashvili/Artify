@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Artify/static/css/main.6ad968ee.css",
+    "main.js": "/Artify/static/js/main.5a10e266.js",
+    "static/media/art3.jpg": "/Artify/static/media/art3.d4bd43870251987dfe7f.jpg",
+    "static/media/art2.jpg": "/Artify/static/media/art2.d4e9ec19c0cc7600673d.jpg",
+    "static/media/art4.jpg": "/Artify/static/media/art4.214991e92cc3289c25a1.jpg",
+    "static/media/art.jpg": "/Artify/static/media/art.b797ef38e331f2044075.jpg",
+    "static/media/gogh.jpg": "/Artify/static/media/gogh.d67b1de92667300b3556.jpg",
+    "static/media/pablo.jpg": "/Artify/static/media/pablo.8dc15ce2e61a15f668cc.jpg",
+    "static/media/leo.jpg": "/Artify/static/media/leo.1823c49294fdcb81790b.jpg",
+    "static/media/jackson.jpg": "/Artify/static/media/jackson.38d2bd109258c020bc91.jpg",
+    "static/media/edward.jpg": "/Artify/static/media/edward.33915db928344bb365a5.jpg",
+    "static/media/rembrandt.jpg": "/Artify/static/media/rembrandt.a71cb6641af2036c72bc.jpg",
+    "static/media/frans.webp": "/Artify/static/media/frans.bba4cb2f5f6f33ca350f.webp",
+    "index.html": "/Artify/index.html",
+    "main.6ad968ee.css.map": "/Artify/static/css/main.6ad968ee.css.map",
+    "main.5a10e266.js.map": "/Artify/static/js/main.5a10e266.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ad968ee.css",
+    "static/js/main.5a10e266.js"
+  ]
+}
